@@ -1,0 +1,758 @@
+{
+    "staff": [
+        {
+            "id": "FSOC6274",
+            "name": [
+                "Ian",
+                "King"
+            ],
+            "department": {
+                "name": "IT"
+            },
+            "server_admin": true
+        },
+        {
+            "id": "FSOC5739",
+            "name": [
+                "Eve",
+                "Rodriguez"
+            ],
+            "department": {
+                "name": "IT"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC4709",
+            "name": [
+                "Hisham",
+                "Nguyen"
+            ],
+            "department": {
+                "name": "IT"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC5167",
+            "name": [
+                "Yusuf",
+                "Perez"
+            ],
+            "department": {
+                "name": "IT"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC5913",
+            "name": [
+                "Xander",
+                "Zajkowski"
+            ],
+            "department": {
+                "name": "IT"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC6145",
+            "name": [
+                "Zelda",
+                "Quintin"
+            ],
+            "department": {
+                "name": "IT"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC5585",
+            "name": [
+                "Mary-Jo",
+                "Xu"
+            ],
+            "department": {
+                "name": "IT"
+            },
+            "server_admin": true
+        },
+        {
+            "id": "FSOC4937",
+            "name": [
+                "Fran\u00c3\u00a7ois",
+                "Hernandez"
+            ],
+            "department": {
+                "name": "IT"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC5407",
+            "name": [
+                "Bob",
+                "Flores"
+            ],
+            "department": {
+                "name": "IT"
+            },
+            "server_admin": false
+        }
+    ],
+    "assets": [
+        {
+            "asset_name": "REGAL AARDVARK",
+            "asset_type": "Server",
+            "owner": "FSOC5457",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "LOW",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Dudley",
+                    "address": [
+                        "98, High Street",
+                        "DY7 3SG"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    47,
+                    19
+                ]
+            }
+        },
+        {
+            "asset_name": "NOBLE EGRET",
+            "asset_type": "Server",
+            "owner": "FSOC6170",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "MEDIUM",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Kingston-upon-Thames",
+                    "address": [
+                        "78, West Street",
+                        "KT10 1YZ"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    20,
+                    40
+                ]
+            }
+        },
+        {
+            "asset_name": "NOBLE CHEETAH",
+            "asset_type": "Server",
+            "owner": "FSOC5457",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Luton",
+                    "address": [
+                        "37, West Street",
+                        "LU2 5HY"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    219,
+                    36
+                ]
+            }
+        },
+        {
+            "asset_name": "QUIXOTIC VIPER",
+            "asset_type": "Server",
+            "owner": "FSOC5630",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Norwich",
+                    "address": [
+                        "14, Church Street",
+                        "NR2 0RW"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    58,
+                    192
+                ]
+            }
+        },
+        {
+            "asset_name": "KOOL KINGFISHER",
+            "asset_type": "Physical Media",
+            "owner": "FSOC5248",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 2,
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Dudley",
+                    "address": [
+                        "98, High Street",
+                        "DY7 3SG"
+                    ]
+                }
+            },
+            "media_type": "USB Stick"
+        },
+        {
+            "asset_name": "CALM PANDA",
+            "asset_type": "File",
+            "owner": "FSOC5079",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "HIGH",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Database",
+            "server": {
+                "server_name": "GLAD ANT",
+                "ip": [
+                    10,
+                    19,
+                    130,
+                    13
+                ]
+            }
+        },
+        {
+            "asset_name": "GLAD OSTRICH",
+            "asset_type": "Server",
+            "owner": "FSOC5351",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Office",
+                    "place": "Carlisle",
+                    "address": [
+                        "49, Church Street",
+                        "CA1 5FF"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    180,
+                    66
+                ]
+            }
+        },
+        {
+            "asset_name": "ANNOYED QUETZAL",
+            "asset_type": "File",
+            "owner": "FSOC6229",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "LOW",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 1
+            },
+            "file_type": "Document",
+            "server": {
+                "server_name": "MIGHTY IBIS",
+                "ip": [
+                    10,
+                    19,
+                    157,
+                    179
+                ]
+            }
+        },
+        {
+            "asset_name": "VIOLET OSTRICH",
+            "asset_type": "Server",
+            "owner": "FSOC4651",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "LOW",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "location": {
+                    "category": "Office",
+                    "place": "Jersey",
+                    "address": [
+                        "4, Station Road",
+                        "JE9 7JF"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    43,
+                    124
+                ]
+            }
+        },
+        {
+            "asset_name": "JUSTIFIED MONGOOSE",
+            "asset_type": "Physical Media",
+            "owner": "FSOC4764",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 2,
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Luton",
+                    "address": [
+                        "37, West Street",
+                        "LU2 5HY"
+                    ]
+                }
+            },
+            "media_type": "USB Stick",
+            "encryption": {
+                "cipher": "None",
+                "keylength": 0
+            }
+        },
+        {
+            "asset_name": "FRIENDLY HIPPO",
+            "asset_type": "File",
+            "owner": "FSOC5079",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "MEDIUM",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 2
+            },
+            "file_type": "Image",
+            "server": {
+                "server_name": "ORIGINAL SLOTH",
+                "ip": [
+                    10,
+                    19,
+                    81,
+                    251
+                ]
+            }
+        },
+        {
+            "asset_name": "VACCINATED OSTRICH",
+            "asset_type": "Physical Media",
+            "owner": "FSOC5457",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "MEDIUM",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 1,
+                "location": {
+                    "category": "Office",
+                    "place": "Reading",
+                    "address": [
+                        "70, King Street",
+                        "RG4 2LH"
+                    ]
+                }
+            },
+            "media_type": "Hard Drive"
+        },
+        {
+            "asset_name": "DEVASTATED MONGREL",
+            "asset_type": "Server",
+            "owner": "FSOC5739",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Luton",
+                    "address": [
+                        "37, West Street",
+                        "LU2 5HY"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    164,
+                    117
+                ]
+            }
+        },
+        {
+            "asset_name": "TRUTHFUL EGRET",
+            "asset_type": "Server",
+            "owner": "FSOC5585",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Manchester",
+                    "address": [
+                        "100, The Crescent",
+                        "M7 4NU"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    82,
+                    232
+                ]
+            }
+        },
+        {
+            "asset_name": "STUPID WALRUS",
+            "asset_type": "Server",
+            "owner": "FSOC5739",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Ipswich",
+                    "address": [
+                        "5, Park Avenue",
+                        "IP12 1ZU"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    115,
+                    251
+                ]
+            }
+        },
+        {
+            "asset_name": "TRUTHFUL ANT",
+            "asset_type": "File",
+            "owner": "FSOC5796",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "HIGH",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 2
+            },
+            "file_type": "Image",
+            "server": {
+                "server_name": "HAPPY OSTRICH",
+                "ip": [
+                    10,
+                    19,
+                    24,
+                    221
+                ]
+            }
+        },
+        {
+            "asset_name": "DEVIANT IBIS",
+            "asset_type": "Physical Media",
+            "owner": "FSOC5481",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 0.5,
+                "location": {
+                    "category": "Office",
+                    "place": "Glasgow",
+                    "address": [
+                        "57, Church Street",
+                        "G13 1RD"
+                    ]
+                }
+            },
+            "media_type": "Hard Drive",
+            "encryption": {
+                "cipher": "None",
+                "keylength": 0
+            }
+        },
+        {
+            "asset_name": "NANO CHEETAH",
+            "asset_type": "File",
+            "owner": "FSOC6028",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Document",
+            "server": {
+                "server_name": "CALM CHEETAH",
+                "ip": [
+                    10,
+                    19,
+                    66,
+                    64
+                ]
+            }
+        },
+        {
+            "asset_name": "GLAD ANT",
+            "asset_type": "Server",
+            "owner": "FSOC6511",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "MEDIUM",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Office",
+                    "place": "Peterborough",
+                    "address": [
+                        "31, Station Road",
+                        "PE5 9RN"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    130,
+                    13
+                ]
+            }
+        },
+        {
+            "asset_name": "FURRY MONGREL",
+            "asset_type": "Physical Media",
+            "owner": "FSOC5167",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 5,
+                "location": {
+                    "category": "Office",
+                    "place": "Reading",
+                    "address": [
+                        "70, King Street",
+                        "RG4 2LH"
+                    ]
+                }
+            },
+            "media_type": "CD"
+        }
+    ]
+}

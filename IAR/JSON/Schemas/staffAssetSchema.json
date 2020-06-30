@@ -1,0 +1,28 @@
+{ 
+    "title": "Single Staff Asset Schema",
+    "description": "Schema for an individual staff asset.",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "pattern": "([A-Z]|[a-z]){4}[0-9]{4}"
+        },
+        "name": {
+            "type": "array",
+            "items": { "type": "string" }
+        },
+        "department": {
+            "type": "object",
+            "properties": {
+                "name": { "type": "string" }
+            },
+            "required": [ "name" ],
+            "additionalProperties": false
+        },
+        "server_admin": {
+            "type": "boolean"
+        }
+    },
+    "required": [ "id", "name", "department", "server_admin" ],
+    "additionalProperties": false
+}

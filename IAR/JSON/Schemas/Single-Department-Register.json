@@ -1,0 +1,170 @@
+{
+    "title": "Single Department Register",
+    "description": "Correct format of each department's JSON file containing all their information assests.",
+    "definitions": {
+        "departmentName": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                }
+            }
+        },
+        "staffAsset": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "description": "Employee ID number",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "Employee full name.",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "department": {
+                    "description": "Name of department an employee is working within.",
+                    "$ref": "#/definitions/departmentName"
+                },
+                "server_admin": {
+                    "description": "Whether (or not) an employee is a server admin.",
+                    "type": "boolean"
+                }
+            },
+            "required": [ "id", "name", "department", "server_admin" ]
+        },
+        "security": {
+            "type": "object",
+            "properties": {
+                "cia": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "data_categories": {
+                    "type": "array",
+                    "items": {
+                        "type": "bool"
+                    }
+                }
+            }
+        },
+        "server": {
+            "type": "object",
+            "properties": {
+                "server_name": {
+                    "type": "string"
+                },
+                "ip" : {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    }
+                }
+            }   
+        },
+        "infoAsset": {
+            "type": "object",
+            "properties": {
+                "asset_name": {
+                    "type": "string"
+                },
+                "asset_type": {
+                    "type": "string"
+                },
+                "owner": {
+                    "type": "string"
+                },
+                "details": {
+                    "type": "object",
+                    "properties": {
+                        "security": {
+                            "type": "object",
+                            "properties": {
+                                "cia": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                },
+                                "data_categories": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        },
+                        "retention": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "file_type": {
+                    "type": "string"
+                },
+                "server": {
+                    "$ref": "#/definitions/server" 
+                },
+                "network_address": {
+                    "$ref": "#/definitions/networkAddress"
+                },
+                "media_type": {
+                    "type": "string"
+                },
+                "encryption": {
+                    "$ref": "#/definitions/encryption"
+                }
+            }
+        },
+        "networkAddress": {
+            "type": "object",
+            "properties": {
+                "ipv4": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    }
+                },
+                "ipv6": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "encryption": {
+            "type": "object",
+            "properties": {
+                "cipher": {
+                    "type": "string"
+                },
+                "keylength": {
+                    "type": "integer"
+                }
+            }
+        }
+    },
+    "type": "object",
+    "properties": {
+        "staff": {
+            "description": "List of all staff assets.",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/staffAsset"
+            }
+        },
+        "assets": {
+            "description": "List of all data assets.",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/infoAsset"
+            }
+        }
+    }
+}
+

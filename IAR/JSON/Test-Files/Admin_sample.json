@@ -1,0 +1,725 @@
+{
+    "staff": [
+        {
+            "id": "FSOC5351",
+            "name": [
+                "Tara",
+                "Vail"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC5481",
+            "name": [
+                "Mary-Jo",
+                "Clark"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC5654",
+            "name": [
+                "Nin\u00c3\u00a1",
+                "O'Donnell"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC4854",
+            "name": [
+                "Kira",
+                "Davis"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC5842",
+            "name": [
+                "Ren\u00c3\u00a9e",
+                "Flores"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC6083",
+            "name": [
+                "Tara",
+                "Anderson"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": true
+        },
+        {
+            "id": "FSOC4651",
+            "name": [
+                "Uma",
+                "Clark"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": true
+        },
+        {
+            "id": "FSOC6511",
+            "name": [
+                "Kira",
+                "Davis"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": true
+        },
+        {
+            "id": "FSOC6229",
+            "name": [
+                "Mary-Jo",
+                "Nguyen"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC5079",
+            "name": [
+                "Bob",
+                "Young"
+            ],
+            "department": {
+                "name": "Admin"
+            },
+            "server_admin": true
+        }
+    ],
+    "assets": [
+        {
+            "asset_name": "JUSTIFIED EGRET",
+            "asset_type": "File",
+            "owner": "FSOC6274",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "HIGH",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Spreadsheet",
+            "server": {
+                "server_name": "SOLO LEMAR",
+                "ip": [
+                    10,
+                    19,
+                    58,
+                    204
+                ]
+            }
+        },
+        {
+            "asset_name": "SOLO RHINO",
+            "asset_type": "Server",
+            "owner": "FSOC5796",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "MEDIUM",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Dudley",
+                    "address": [
+                        "98, High Street",
+                        "DY7 3SG"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    186,
+                    49
+                ]
+            }
+        },
+        {
+            "asset_name": "YOUTHFUL TRICERATOPS",
+            "asset_type": "File",
+            "owner": "FSOC6511",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "HIGH",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Spreadsheet",
+            "server": {
+                "server_name": "BROKEN UGUISU",
+                "ip": [
+                    10,
+                    19,
+                    119,
+                    198
+                ]
+            }
+        },
+        {
+            "asset_name": "VACCINATED OSTRICH",
+            "asset_type": "File",
+            "owner": "FSOC5796",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "LOW",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Database",
+            "server": {
+                "server_name": "UNKEMPT VIPER",
+                "ip": [
+                    10,
+                    19,
+                    73,
+                    59
+                ]
+            }
+        },
+        {
+            "asset_name": "ORIGINAL YAK",
+            "asset_type": "File",
+            "owner": "FSOC5585",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Image",
+            "server": {
+                "server_name": "LAUGHING EGRET",
+                "ip": [
+                    10,
+                    19,
+                    136,
+                    43
+                ]
+            }
+        },
+        {
+            "asset_name": "ORIGINAL LEMAR",
+            "asset_type": "File",
+            "owner": "FSOC4709",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "HIGH",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 1
+            },
+            "file_type": "Spreadsheet",
+            "server": {
+                "server_name": "JUMPY CHEETAH",
+                "ip": [
+                    10,
+                    19,
+                    33,
+                    140
+                ]
+            }
+        },
+        {
+            "asset_name": "HAPPY NARWHAL",
+            "asset_type": "File",
+            "owner": "FSOC6511",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "LOW",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 5
+            },
+            "file_type": "Document",
+            "server": {
+                "server_name": "GOLDEN MONGREL",
+                "ip": [
+                    10,
+                    19,
+                    18,
+                    27
+                ]
+            }
+        },
+        {
+            "asset_name": "NANO OSTRICH",
+            "asset_type": "Server",
+            "owner": "FSOC6274",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "MEDIUM",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "location": {
+                    "category": "Office",
+                    "place": "Peterborough",
+                    "address": [
+                        "31, Station Road",
+                        "PE5 9RN"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    215,
+                    79
+                ]
+            }
+        },
+        {
+            "asset_name": "VACCINATED KINGFISHER",
+            "asset_type": "File",
+            "owner": "FSOC5796",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "HIGH",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 1
+            },
+            "file_type": "Database",
+            "server": {
+                "server_name": "NOBLE NARWHAL",
+                "ip": [
+                    10,
+                    19,
+                    125,
+                    233
+                ]
+            }
+        },
+        {
+            "asset_name": "JUMPY LEMAR",
+            "asset_type": "File",
+            "owner": "FSOC5248",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 1
+            },
+            "file_type": "Document",
+            "server": {
+                "server_name": "IGNOBLE OSTRICH",
+                "ip": [
+                    10,
+                    19,
+                    147,
+                    8
+                ]
+            }
+        },
+        {
+            "asset_name": "REGAL EGRET",
+            "asset_type": "File",
+            "owner": "FSOC4979",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 1
+            },
+            "file_type": "Image",
+            "server": {
+                "server_name": "PRETTY BADGER",
+                "ip": [
+                    10,
+                    19,
+                    20,
+                    87
+                ]
+            }
+        },
+        {
+            "asset_name": "UNKEMPT FELINE",
+            "asset_type": "Physical Media",
+            "owner": "FSOC5796",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 0.5,
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Manchester",
+                    "address": [
+                        "100, The Crescent",
+                        "M7 4NU"
+                    ]
+                }
+            },
+            "media_type": "USB Stick"
+        },
+        {
+            "asset_name": "ISOLATED UGUISU",
+            "asset_type": "Physical Media",
+            "owner": "FSOC5351",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "HIGH",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 2,
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Kingston-upon-Thames",
+                    "address": [
+                        "78, West Street",
+                        "KT10 1YZ"
+                    ]
+                }
+            },
+            "media_type": "CD"
+        },
+        {
+            "asset_name": "WISTFUL JACKAL",
+            "asset_type": "File",
+            "owner": "FSOC5585",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "MEDIUM",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 5
+            },
+            "file_type": "Document",
+            "server": {
+                "server_name": "STUPID JACKAL",
+                "ip": [
+                    10,
+                    19,
+                    149,
+                    49
+                ]
+            }
+        },
+        {
+            "asset_name": "ROYAL TRICERATOPS",
+            "asset_type": "Physical Media",
+            "owner": "FSOC6145",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "HIGH",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 2,
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Dudley",
+                    "address": [
+                        "98, High Street",
+                        "DY7 3SG"
+                    ]
+                }
+            },
+            "media_type": "CD"
+        },
+        {
+            "asset_name": "ANGRY SLOTH",
+            "asset_type": "File",
+            "owner": "FSOC5079",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 2
+            },
+            "file_type": "Image",
+            "server": {
+                "server_name": "JUSTIFIED FELINE",
+                "ip": [
+                    10,
+                    19,
+                    252,
+                    139
+                ]
+            }
+        },
+        {
+            "asset_name": "ENGAGED HIPPO",
+            "asset_type": "File",
+            "owner": "FSOC4854",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "LOW",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 0.5
+            },
+            "file_type": "Image",
+            "server": {
+                "server_name": "UNKEMPT TRICERATOPS",
+                "ip": [
+                    10,
+                    19,
+                    245,
+                    65
+                ]
+            }
+        },
+        {
+            "asset_name": "TRUTHFUL SLOTH",
+            "asset_type": "File",
+            "owner": "FSOC5351",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 5
+            },
+            "file_type": "Spreadsheet",
+            "server": {
+                "server_name": "USEFUL NARWHAL",
+                "ip": [
+                    10,
+                    19,
+                    109,
+                    236
+                ]
+            }
+        },
+        {
+            "asset_name": "VACCINATED TRICERATOPS",
+            "asset_type": "Physical Media",
+            "owner": "FSOC4854",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 2,
+                "location": {
+                    "category": "Office",
+                    "place": "Carlisle",
+                    "address": [
+                        "49, Church Street",
+                        "CA1 5FF"
+                    ]
+                }
+            },
+            "media_type": "CD",
+            "encryption": {
+                "cipher": "RC4",
+                "keylength": 256
+            }
+        },
+        {
+            "asset_name": "FRIENDLY HIPPO",
+            "asset_type": "Physical Media",
+            "owner": "FSOC5913",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 1,
+                "location": {
+                    "category": "Office",
+                    "place": "Oxford",
+                    "address": [
+                        "58, Park Avenue",
+                        "OX9 7QG"
+                    ]
+                }
+            },
+            "media_type": "USB Stick"
+        }
+    ]
+}

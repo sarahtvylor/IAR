@@ -1,0 +1,776 @@
+{
+    "staff": [
+        {
+            "id": "FSOC5630",
+            "name": [
+                "Ian",
+                "Lopez"
+            ],
+            "department": {
+                "name": "Operations"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC6028",
+            "name": [
+                "Uma",
+                "Hernandez"
+            ],
+            "department": {
+                "name": "Operations"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC4764",
+            "name": [
+                "Yusuf",
+                "Clark"
+            ],
+            "department": {
+                "name": "Operations"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC5248",
+            "name": [
+                "Bob",
+                "Lopez"
+            ],
+            "department": {
+                "name": "Operations"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC6387",
+            "name": [
+                "\u00c3\u02dcyvind",
+                "Johnson"
+            ],
+            "department": {
+                "name": "Operations"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC4979",
+            "name": [
+                "Tara",
+                "Ings"
+            ],
+            "department": {
+                "name": "Operations"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC5457",
+            "name": [
+                "\u00c3\u02dcyvind",
+                "Ings"
+            ],
+            "department": {
+                "name": "Operations"
+            },
+            "server_admin": false
+        },
+        {
+            "id": "FSOC5796",
+            "name": [
+                "Quinlan",
+                "Hernandez"
+            ],
+            "department": {
+                "name": "Operations"
+            },
+            "server_admin": true
+        },
+        {
+            "id": "FSOC6170",
+            "name": [
+                "\u00c3\u02dcyvind",
+                "Garcia"
+            ],
+            "department": {
+                "name": "Operations"
+            },
+            "server_admin": false
+        }
+    ],
+    "assets": [
+        {
+            "asset_name": "VIOLET TRICERATOPS",
+            "asset_type": "Server",
+            "owner": "FSOC4764",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "MEDIUM",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Office",
+                    "place": "Jersey",
+                    "address": [
+                        "4, Station Road",
+                        "JE9 7JF"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    16,
+                    18
+                ]
+            }
+        },
+        {
+            "asset_name": "STUPID JACKAL",
+            "asset_type": "Server",
+            "owner": "FSOC5585",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "location": {
+                    "category": "Office",
+                    "place": "Peterborough",
+                    "address": [
+                        "31, Station Road",
+                        "PE5 9RN"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    149,
+                    49
+                ]
+            }
+        },
+        {
+            "asset_name": "VACCINATED VIPER",
+            "asset_type": "Server",
+            "owner": "FSOC5654",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "HIGH",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Office",
+                    "place": "Peterborough",
+                    "address": [
+                        "31, Station Road",
+                        "PE5 9RN"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    76,
+                    185
+                ]
+            }
+        },
+        {
+            "asset_name": "VIOLET VIPER",
+            "asset_type": "Server",
+            "owner": "FSOC5079",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "LOW",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Luton",
+                    "address": [
+                        "37, West Street",
+                        "LU2 5HY"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    130,
+                    108
+                ]
+            }
+        },
+        {
+            "asset_name": "ANGRY AARDVARK",
+            "asset_type": "Physical Media",
+            "owner": "FSOC5481",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 5,
+                "location": {
+                    "category": "Office",
+                    "place": "Oxford",
+                    "address": [
+                        "58, Park Avenue",
+                        "OX9 7QG"
+                    ]
+                }
+            },
+            "media_type": "CD"
+        },
+        {
+            "asset_name": "BETTER MONGOOSE",
+            "asset_type": "Physical Media",
+            "owner": "FSOC5842",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 0.5,
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Ipswich",
+                    "address": [
+                        "5, Park Avenue",
+                        "IP12 1ZU"
+                    ]
+                }
+            },
+            "media_type": "Hard Drive"
+        },
+        {
+            "asset_name": "STUPID VIPER",
+            "asset_type": "Server",
+            "owner": "FSOC5842",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "HIGH",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Norwich",
+                    "address": [
+                        "14, Church Street",
+                        "NR2 0RW"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    187,
+                    189
+                ]
+            }
+        },
+        {
+            "asset_name": "KOOL UGUISU",
+            "asset_type": "Server",
+            "owner": "FSOC4651",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "LOW",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Bromley",
+                    "address": [
+                        "57, Queen Street",
+                        "BR8 6FH"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    81,
+                    177
+                ]
+            }
+        },
+        {
+            "asset_name": "PROUD PANDA",
+            "asset_type": "File",
+            "owner": "FSOC5248",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 2
+            },
+            "file_type": "Image",
+            "server": {
+                "server_name": "BETTER EGRET",
+                "ip": [
+                    10,
+                    19,
+                    252,
+                    225
+                ]
+            }
+        },
+        {
+            "asset_name": "CULTURED IBIS",
+            "asset_type": "Server",
+            "owner": "FSOC4709",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "HIGH",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Kingston-upon-Thames",
+                    "address": [
+                        "78, West Street",
+                        "KT10 1YZ"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    250,
+                    61
+                ]
+            }
+        },
+        {
+            "asset_name": "ROYAL FELINE",
+            "asset_type": "Server",
+            "owner": "FSOC5457",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Office",
+                    "place": "Oxford",
+                    "address": [
+                        "58, Park Avenue",
+                        "OX9 7QG"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    89,
+                    58
+                ]
+            }
+        },
+        {
+            "asset_name": "FURRY RHINO",
+            "asset_type": "File",
+            "owner": "FSOC4709",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 2
+            },
+            "file_type": "Image",
+            "server": {
+                "server_name": "JUMPY IBIS",
+                "ip": [
+                    10,
+                    19,
+                    156,
+                    41
+                ]
+            }
+        },
+        {
+            "asset_name": "CULTURED UGUISU",
+            "asset_type": "File",
+            "owner": "FSOC4979",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": true
+                    }
+                },
+                "retention": 5
+            },
+            "file_type": "Image",
+            "server": {
+                "server_name": "REGAL AARDVARK",
+                "ip": [
+                    10,
+                    19,
+                    47,
+                    19
+                ]
+            }
+        },
+        {
+            "asset_name": "GLAD ANT",
+            "asset_type": "Server",
+            "owner": "FSOC4651",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "LOW",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Kingston-upon-Thames",
+                    "address": [
+                        "78, West Street",
+                        "KT10 1YZ"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    111,
+                    67
+                ]
+            }
+        },
+        {
+            "asset_name": "MIGHTY BADGER",
+            "asset_type": "Server",
+            "owner": "FSOC5457",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "LOW",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Norwich",
+                    "address": [
+                        "14, Church Street",
+                        "NR2 0RW"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    36,
+                    18
+                ]
+            }
+        },
+        {
+            "asset_name": "IGNOBLE VIPER",
+            "asset_type": "Server",
+            "owner": "FSOC4709",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "MEDIUM",
+                        "MEDIUM"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Kingston-upon-Thames",
+                    "address": [
+                        "78, West Street",
+                        "KT10 1YZ"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    80,
+                    179
+                ]
+            }
+        },
+        {
+            "asset_name": "VIOLET MONGOOSE",
+            "asset_type": "Server",
+            "owner": "FSOC4709",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "MEDIUM",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Ipswich",
+                    "address": [
+                        "5, Park Avenue",
+                        "IP12 1ZU"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    210,
+                    23
+                ]
+            }
+        },
+        {
+            "asset_name": "STUPID DEER",
+            "asset_type": "Server",
+            "owner": "FSOC5630",
+            "details": {
+                "security": {
+                    "cia": [
+                        "HIGH",
+                        "MEDIUM",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": true,
+                        "Personal Sensitive": false,
+                        "Customer Sensitive": false
+                    }
+                },
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Ipswich",
+                    "address": [
+                        "5, Park Avenue",
+                        "IP12 1ZU"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    130,
+                    76
+                ]
+            }
+        },
+        {
+            "asset_name": "YOUTHFUL KINGFISHER",
+            "asset_type": "Server",
+            "owner": "FSOC4979",
+            "details": {
+                "security": {
+                    "cia": [
+                        "LOW",
+                        "HIGH",
+                        "HIGH"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": true
+                    }
+                },
+                "location": {
+                    "category": "Office",
+                    "place": "Carlisle",
+                    "address": [
+                        "49, Church Street",
+                        "CA1 5FF"
+                    ]
+                }
+            },
+            "network_address": {
+                "ipv4": [
+                    10,
+                    19,
+                    28,
+                    241
+                ]
+            }
+        },
+        {
+            "asset_name": "WAITING PANDA",
+            "asset_type": "Physical Media",
+            "owner": "FSOC5167",
+            "details": {
+                "security": {
+                    "cia": [
+                        "MEDIUM",
+                        "MEDIUM",
+                        "LOW"
+                    ],
+                    "data_categories": {
+                        "Personal": false,
+                        "Personal Sensitive": true,
+                        "Customer Sensitive": false
+                    }
+                },
+                "retention": 2,
+                "location": {
+                    "category": "Data Centre",
+                    "place": "Norwich",
+                    "address": [
+                        "14, Church Street",
+                        "NR2 0RW"
+                    ]
+                }
+            },
+            "media_type": "USB Stick",
+            "encryption": {
+                "cipher": "3DES",
+                "keylength": 56
+            }
+        }
+    ]
+}

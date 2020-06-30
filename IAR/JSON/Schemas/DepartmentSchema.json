@@ -1,0 +1,286 @@
+{
+    "title": "Department Registry Schema",
+    "description": "Schema for an individual departments' IAR.",
+
+    "definitions": {
+        "staffAssetSchema": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "pattern": "([A-Z]|[a-z]){4}[0-9]{4}"
+                },
+                "name": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                },
+                "department": {
+                    "type": "object",
+                    "properties": {
+                        "name": { "type": "string" }
+                    },
+                    "required": [ "name" ],
+                    "additionalProperties": false
+                },
+                "server_admin": {
+                    "type": "boolean"
+                }
+            },
+            "required": [ "id", "name", "department", "server_admin" ],
+            "additionalProperties": false
+        },
+        "infoAssetSchema": {
+            "type": "object",
+            "properties": {
+            "asset_name": { "type": "string" },
+            "owner": { "type": "string", "pattern": "([A-Z]|[a-z]){4}[0-9]{4}" },
+            "asset_type": { "enum": [ "File", "Server", "Physical Media" ] }
+            },
+            "required": [ "asset_name", "owner", "asset_type" ],
+            "anyOf": [
+            {
+                "if": {
+                    "properties": { "asset_type": { "const": "File" } }
+                },
+                "then": {
+                    "properties": {
+                        "details": {
+                            "type": "object",
+                            "properties": {
+                                "security": {
+                                    "type": "object",
+                                    "properties": {
+                                        "cia": {
+                                            "type": "array",
+                                            "minItems": 3,
+                                            "maxItems": 3,
+                                            "items": {
+                                                "type": "string",
+                                                "enum": [ "HIGH", "MEDIUM", "LOW" ]
+                                            }
+                                        },
+                                        "data_categories": {
+                                            "type": "object",
+                                            "properties": {
+                                                "Personal": { "type": "boolean" },
+                                                "Personal Sensitive": { "type": "boolean" },
+                                                "Customer Sensitive": { "type": "boolean" }
+                                            },
+                                            "required": [ "Personal", "Personal Sensitive", "Customer Sensitive" ],
+                                            "additionalProperties": false
+                                        }
+                                    },
+                                    "required": [ "cia", "data_categories" ],
+                                    "additionalProperties": false
+                                },
+                                "retention": { "type": "number" }
+                            },
+                            "required": [ "security", "retention" ],
+                            "additionalProperties": false
+                        },
+                        "file_type": { "type": "string" },
+                        "server": {
+                            "type": "object",
+                            "properties": {
+                                "server_name": { "type": "string" },
+                                "ip": {
+                                    "type": "array",
+                                    "minItems": 4,
+                                    "maxItems": 4,
+                                    "items": {
+                                        "type": "integer",
+                                        "minimum": 0,
+                                        "maximum": 255
+                                    }
+                                }
+                            },
+                            "required": [ "server_name", "ip" ],
+                            "additionalProperties": false
+                        }
+                    },
+                    "required": [ "details", "file_type", "server" ],
+                    "additionalProperties": false
+                }
+            },
+            {
+                "if": {
+                    "properties": { "asset_type": { "const": "Server" } }
+                },
+                "then": {
+                    "properties": {
+                        "details": {
+                            "type": "object",
+                            "properties": {
+                                "security": {
+                                    "type": "object",
+                                    "properties": {
+                                        "cia": {
+                                            "type": "array",
+                                            "minItems": 3,
+                                            "maxItems": 3,
+                                            "items": {
+                                                "type": "string",
+                                                "enum": [ "HIGH", "MEDIUM", "LOW" ]
+                                            }
+                                        },
+                                        "data_categories": {
+                                            "type": "object",
+                                            "properties": {
+                                                "Personal": { "type": "boolean" },
+                                                "Personal Sensitive": { "type": "boolean" },
+                                                "Customer Sensitive": { "type": "boolean" }
+                                            },
+                                            "required": [ "Personal", "Personal Sensitive", "Customer Sensitive" ],
+                                            "additionalProperties": false
+                                        }
+                                    },
+                                    "required": [ "cia", "data_categories" ],
+                                    "additionalProperties": false
+                                },
+                                "location": {
+                                    "type": "object",
+                                    "properties": {
+                                        "category": { "type": "string" },
+                                        "place": { "type": "string" },
+                                        "address": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "required": [ "category", "place", "address" ],
+                                    "additionalProperties": false
+                                },
+                                "network_address": {
+                                    "type": "object",
+                                    "properties": {
+                                        "ipv4": {
+                                            "type": "array",
+                                            "minItems": 4,
+                                            "maxItems": 4,
+                                            "items": {
+                                                "type": "integer",
+                                                "minimum": 0,
+                                                "maximum": 255
+                                            }
+                                        },
+                                        "ipv6": {
+                                            "type": "array",
+                                            "minItems": 6,
+                                            "maxItems": 6,
+                                            "items": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "oneOf": [
+                                        {
+                                            "required": [ "ipv4" ]
+                                        },
+                                        {
+                                            "required": [ "ipv6" ]
+                                        }
+                                    ],
+                                    "additionalProperties": false
+                                }
+                            },
+                            "required": [ "security", "location" ],
+                            "additionalProperties": false
+                        }
+                    },
+                    "required": [ "details", "network_address" ],
+                    "additionalProperties": false
+                }
+            },
+            {
+                "if": {
+                    "properties": { "asset_type": { "const": "Physical Media" } }
+                },
+                "then": {
+                    "properties": {
+                        "details": {
+                            "type": "object",
+                            "properties": {
+                                "security": {
+                                    "type": "object",
+                                    "properties": {
+                                        "cia": {
+                                            "type": "array",
+                                            "minItems": 3,
+                                            "maxItems": 3,
+                                            "items": {
+                                                "type": "string",
+                                                "enum": [ "HIGH", "MEDIUM", "LOW" ]
+                                            }
+                                        },
+                                        "data_categories": {
+                                            "type": "object",
+                                            "properties": {
+                                                "Personal": { "type": "boolean" },
+                                                "Personal Sensitive": { "type": "boolean" },
+                                                "Customer Sensitive": { "type": "boolean" }
+                                            },
+                                            "required": [ "Personal", "Personal Sensitive", "Customer Sensitive" ],
+                                            "additionalProperties": false
+                                        }
+                                    },
+                                    "required": [ "cia", "data_categories" ],
+                                    "additionalProperties": false
+                                },
+                                "retention": { "type": "number" },
+                                "location": {
+                                    "type": "object",
+                                    "properties": {
+                                        "category": { "type": "string" },
+                                        "place": { "type": "string" },
+                                        "address": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "required": [ "category", "place", "address" ],
+                                    "additionalProperties": false
+                                }
+                            },
+                            "required": [ "security", "retention", "location" ],
+                            "additionalProperties": false
+                        },
+                        "media_type": { "type": "string" },
+                        "encryption": {
+                            "type": "object",
+                            "properties": {
+                                "cipher": { "type": "string" },
+                                "keylength": { "type": "integer" }
+                            },
+                            "required": [ "cipher", "keylength" ],
+                            "additionalProperties": false
+                        }
+                    },
+                    "required": [ "details", "media_type" ],
+                    "additionalProperties": false
+                }
+            }
+            ]
+        }
+    },
+
+    "type": "object",
+    "properties": {
+        "staff": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/staffAssetSchema"
+            }
+        },
+        "assets": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/infoAssetSchema"
+            }
+        }
+    },
+    "additionalProperties": false
+}
