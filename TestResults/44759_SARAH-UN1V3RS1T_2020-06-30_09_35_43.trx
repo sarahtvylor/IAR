@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="26903fb7-9cd6-441d-8cb8-fb8538f7169e" name="44759@SARAH-UN1V3RS1T 2020-06-30 09:35:43" runUser="SARAH-UN1V3RS1T\44759" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-06-30T09:35:43.7463415+01:00" queuing="2020-06-30T09:35:43.7463428+01:00" start="2020-06-30T09:35:42.8623231+01:00" finish="2020-06-30T09:35:43.7702067+01:00" />
+  <TestSettings name="default" id="ec0a72f5-2ccc-499f-893b-7b4e70d9381f">
+    <Deployment runDeploymentRoot="44759_SARAH-UN1V3RS1T_2020-06-30_09_35_43" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="be3dfffd-8c2f-416d-a9a1-f595347f342d" testId="28199ac7-5939-1663-8865-1c5395a2e56f" testName="CLI_Run_Test_Returns3_NoFilePath" computerName="SARAH-UN1V3RS1T" duration="00:00:00.0031650" startTime="2020-06-30T09:35:43.0000000+01:00" endTime="2020-06-30T09:35:43.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be3dfffd-8c2f-416d-a9a1-f595347f342d" />
+    <UnitTestResult executionId="0615f92e-57c8-4db7-b4e4-cf209c42a1e0" testId="9752bf5c-8f02-3a28-a93d-382a6ac24452" testName="CLI_Run_Test_Returns3_ExtraArgumentsShouldBeIgnored" computerName="SARAH-UN1V3RS1T" duration="00:00:00.0001360" startTime="2020-06-30T09:35:43.0000000+01:00" endTime="2020-06-30T09:35:43.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0615f92e-57c8-4db7-b4e4-cf209c42a1e0" />
+    <UnitTestResult executionId="8c75496c-7c97-4596-bbcd-502188102231" testId="ebffe983-39df-38d2-9d6d-9ac728dd5c55" testName="filePathValid_ReturnTrue" computerName="SARAH-UN1V3RS1T" duration="00:00:00.0316180" startTime="2020-06-30T09:35:43.0000000+01:00" endTime="2020-06-30T09:35:43.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c75496c-7c97-4596-bbcd-502188102231">
+      <Output>
+        <StdOut>\IAR.dll</StdOut>
+        <ErrorInfo>
+          <Message>  Expected: True&#xD;
+  But was:  False&#xD;
+</Message>
+          <StackTrace>   at IAR.Tests.ValidateJSONTests.filePathValid_ReturnTrue() in C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests\ValidateJSONTests.cs:line 35&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a9608801-25ad-431e-8e7b-12f02587ef7b" testId="6ad9f198-082c-2207-4fd7-09f2a83d8966" testName="CLI_Run_Test_Returns5" computerName="SARAH-UN1V3RS1T" duration="00:00:00.0001230" startTime="2020-06-30T09:35:43.0000000+01:00" endTime="2020-06-30T09:35:43.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9608801-25ad-431e-8e7b-12f02587ef7b">
+      <Output>
+        <StdOut>Unrecognised command: vaalidate-json</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d0076b83-75f6-4cf3-a0c5-d3ed83673ab4" testId="ee0279a7-a89b-2731-665f-eec410c6689b" testName="CLI_Run_Test_Returns4" computerName="SARAH-UN1V3RS1T" duration="00:00:00.0002220" startTime="2020-06-30T09:35:43.0000000+01:00" endTime="2020-06-30T09:35:43.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0076b83-75f6-4cf3-a0c5-d3ed83673ab4">
+      <Output>
+        <StdOut>Unrecognised option: --inppute-schema</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d9bf9152-c843-4cf3-a500-9c392f79ed48" testId="91290980-7e71-f3dd-6667-088ca615dc54" testName="CLI_Run_Test_Returns1" computerName="SARAH-UN1V3RS1T" duration="00:00:00.0113119" startTime="2020-06-30T09:35:43.0000000+01:00" endTime="2020-06-30T09:35:43.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9bf9152-c843-4cf3-a500-9c392f79ed48" />
+    <UnitTestResult executionId="a27593f1-5f6b-4960-94b8-b4bf45e55363" testId="0c2018a5-568b-2336-3d83-ebad6af160da" testName="CLI_Run_Test_Returns3" computerName="SARAH-UN1V3RS1T" duration="00:00:00.0001800" startTime="2020-06-30T09:35:43.0000000+01:00" endTime="2020-06-30T09:35:43.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a27593f1-5f6b-4960-94b8-b4bf45e55363" />
+    <UnitTestResult executionId="0a97186d-5421-4bf2-9944-72af71f354d1" testId="42362707-c98d-b0bb-0234-8ec60c8061f4" testName="CLI_Run_Test_Returns2" computerName="SARAH-UN1V3RS1T" duration="00:00:00.0002410" startTime="2020-06-30T09:35:43.0000000+01:00" endTime="2020-06-30T09:35:43.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a97186d-5421-4bf2-9944-72af71f354d1" />
+    <UnitTestResult executionId="ca4917f5-9f96-412f-9140-0a4db0bb50d4" testId="97c3dadb-3691-40e4-5c60-2844e6b97e88" testName="filePathValid_ReturnFalse" computerName="SARAH-UN1V3RS1T" duration="00:00:00.0020050" startTime="2020-06-30T09:35:43.0000000+01:00" endTime="2020-06-30T09:35:43.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca4917f5-9f96-412f-9140-0a4db0bb50d4" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="filePathValid_ReturnTrue" storage="c:\users\44759\onedrive - northumbria university - production azure ad\cstp\lvl4\3-sd\assignment\iar-testing-inclusive\iar.tests\bin\debug\netcoreapp3.1\iar.tests.dll" id="ebffe983-39df-38d2-9d6d-9ac728dd5c55">
+      <Execution id="8c75496c-7c97-4596-bbcd-502188102231" />
+      <TestMethod codeBase="C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests\bin\Debug\netcoreapp3.1\IAR.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IAR.Tests.ValidateJSONTests" name="filePathValid_ReturnTrue" />
+    </UnitTest>
+    <UnitTest name="CLI_Run_Test_Returns4" storage="c:\users\44759\onedrive - northumbria university - production azure ad\cstp\lvl4\3-sd\assignment\iar-testing-inclusive\iar.tests\bin\debug\netcoreapp3.1\iar.tests.dll" id="ee0279a7-a89b-2731-665f-eec410c6689b">
+      <Execution id="d0076b83-75f6-4cf3-a0c5-d3ed83673ab4" />
+      <TestMethod codeBase="C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests\bin\Debug\netcoreapp3.1\IAR.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IAR.Tests.CLITests" name="CLI_Run_Test_Returns4" />
+    </UnitTest>
+    <UnitTest name="CLI_Run_Test_Returns5" storage="c:\users\44759\onedrive - northumbria university - production azure ad\cstp\lvl4\3-sd\assignment\iar-testing-inclusive\iar.tests\bin\debug\netcoreapp3.1\iar.tests.dll" id="6ad9f198-082c-2207-4fd7-09f2a83d8966">
+      <Execution id="a9608801-25ad-431e-8e7b-12f02587ef7b" />
+      <TestMethod codeBase="C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests\bin\Debug\netcoreapp3.1\IAR.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IAR.Tests.CLITests" name="CLI_Run_Test_Returns5" />
+    </UnitTest>
+    <UnitTest name="filePathValid_ReturnFalse" storage="c:\users\44759\onedrive - northumbria university - production azure ad\cstp\lvl4\3-sd\assignment\iar-testing-inclusive\iar.tests\bin\debug\netcoreapp3.1\iar.tests.dll" id="97c3dadb-3691-40e4-5c60-2844e6b97e88">
+      <Execution id="ca4917f5-9f96-412f-9140-0a4db0bb50d4" />
+      <TestMethod codeBase="C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests\bin\Debug\netcoreapp3.1\IAR.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IAR.Tests.ValidateJSONTests" name="filePathValid_ReturnFalse" />
+    </UnitTest>
+    <UnitTest name="CLI_Run_Test_Returns3_ExtraArgumentsShouldBeIgnored" storage="c:\users\44759\onedrive - northumbria university - production azure ad\cstp\lvl4\3-sd\assignment\iar-testing-inclusive\iar.tests\bin\debug\netcoreapp3.1\iar.tests.dll" id="9752bf5c-8f02-3a28-a93d-382a6ac24452">
+      <Execution id="0615f92e-57c8-4db7-b4e4-cf209c42a1e0" />
+      <TestMethod codeBase="C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests\bin\Debug\netcoreapp3.1\IAR.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IAR.Tests.CLITests" name="CLI_Run_Test_Returns3_ExtraArgumentsShouldBeIgnored" />
+    </UnitTest>
+    <UnitTest name="CLI_Run_Test_Returns3_NoFilePath" storage="c:\users\44759\onedrive - northumbria university - production azure ad\cstp\lvl4\3-sd\assignment\iar-testing-inclusive\iar.tests\bin\debug\netcoreapp3.1\iar.tests.dll" id="28199ac7-5939-1663-8865-1c5395a2e56f">
+      <Execution id="be3dfffd-8c2f-416d-a9a1-f595347f342d" />
+      <TestMethod codeBase="C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests\bin\Debug\netcoreapp3.1\IAR.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IAR.Tests.CLITests" name="CLI_Run_Test_Returns3_NoFilePath" />
+    </UnitTest>
+    <UnitTest name="CLI_Run_Test_Returns2" storage="c:\users\44759\onedrive - northumbria university - production azure ad\cstp\lvl4\3-sd\assignment\iar-testing-inclusive\iar.tests\bin\debug\netcoreapp3.1\iar.tests.dll" id="42362707-c98d-b0bb-0234-8ec60c8061f4">
+      <Execution id="0a97186d-5421-4bf2-9944-72af71f354d1" />
+      <TestMethod codeBase="C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests\bin\Debug\netcoreapp3.1\IAR.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IAR.Tests.CLITests" name="CLI_Run_Test_Returns2" />
+    </UnitTest>
+    <UnitTest name="CLI_Run_Test_Returns1" storage="c:\users\44759\onedrive - northumbria university - production azure ad\cstp\lvl4\3-sd\assignment\iar-testing-inclusive\iar.tests\bin\debug\netcoreapp3.1\iar.tests.dll" id="91290980-7e71-f3dd-6667-088ca615dc54">
+      <Execution id="d9bf9152-c843-4cf3-a500-9c392f79ed48" />
+      <TestMethod codeBase="C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests\bin\Debug\netcoreapp3.1\IAR.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IAR.Tests.CLITests" name="CLI_Run_Test_Returns1" />
+    </UnitTest>
+    <UnitTest name="CLI_Run_Test_Returns3" storage="c:\users\44759\onedrive - northumbria university - production azure ad\cstp\lvl4\3-sd\assignment\iar-testing-inclusive\iar.tests\bin\debug\netcoreapp3.1\iar.tests.dll" id="0c2018a5-568b-2336-3d83-ebad6af160da">
+      <Execution id="a27593f1-5f6b-4960-94b8-b4bf45e55363" />
+      <TestMethod codeBase="C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests\bin\Debug\netcoreapp3.1\IAR.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IAR.Tests.CLITests" name="CLI_Run_Test_Returns3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="28199ac7-5939-1663-8865-1c5395a2e56f" executionId="be3dfffd-8c2f-416d-a9a1-f595347f342d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9752bf5c-8f02-3a28-a93d-382a6ac24452" executionId="0615f92e-57c8-4db7-b4e4-cf209c42a1e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebffe983-39df-38d2-9d6d-9ac728dd5c55" executionId="8c75496c-7c97-4596-bbcd-502188102231" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ad9f198-082c-2207-4fd7-09f2a83d8966" executionId="a9608801-25ad-431e-8e7b-12f02587ef7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee0279a7-a89b-2731-665f-eec410c6689b" executionId="d0076b83-75f6-4cf3-a0c5-d3ed83673ab4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91290980-7e71-f3dd-6667-088ca615dc54" executionId="d9bf9152-c843-4cf3-a500-9c392f79ed48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c2018a5-568b-2336-3d83-ebad6af160da" executionId="a27593f1-5f6b-4960-94b8-b4bf45e55363" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42362707-c98d-b0bb-0234-8ec60c8061f4" executionId="0a97186d-5421-4bf2-9944-72af71f354d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97c3dadb-3691-40e4-5c60-2844e6b97e88" executionId="ca4917f5-9f96-412f-9140-0a4db0bb50d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" passed="8" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.15.1.0: Test execution started&#xD;
+Running all tests in C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests\bin\Debug\netcoreapp3.1\IAR.Tests.dll&#xD;
+   NUnit3TestExecutor converted 9 of 9 NUnit test cases&#xD;
+NUnit Adapter 3.15.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

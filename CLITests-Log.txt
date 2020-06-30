@@ -1,0 +1,19 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests> dotnet test
+Test run for C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests\bin\Debug\netcoreapp3.1\IAR.Tests.dll(.NETCoreApp,Version=v3.1)
+Microsoft (R) Test Execution Command Line Tool Version 16.5.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+
+A total of 1 test files matched the specified pattern.
+
+Test Run Successful.
+Total tests: 7
+     Passed: 7
+ Total time: 0.8153 Seconds
+PS C:\Users\44759\OneDrive - Northumbria University - Production Azure AD\CSTP\Lvl4\3-SD\Assignment\IAR-Testing-Inclusive\IAR.Tests> 
